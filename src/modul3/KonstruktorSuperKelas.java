@@ -11,8 +11,8 @@ package modul3;
  */
 public class KonstruktorSuperKelas {
     public static void main(String[]args){
-        Guru guru1 = new Guru("5.000.000","Mapel IPA","Perumahan Sukun Pondok Indah M7");
-        guru1.info();
+        Guru guru = new Guru("5.000.000","Mapel IPA","Perumahan Sukun Pondok Indah M7","600.000");
+        guru.info();
     }
     
 }
