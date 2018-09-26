@@ -9,11 +9,13 @@ package modul3;
  *
  * @author HP
  */
-public class Hewan {
-    public static void testClassMethod(){
-            System.out.println("The class method in Hewan ...");
+public class PraktikumSekolah {
+    private String guruMapel;
+    
+    public PraktikumSekolah(String guruMapel){
+        this.guruMapel = guruMapel;
     }
-    public void testInstanceMethod(){
-        System.out.println("The instance method in Hewan ...");
-    }
+    public void info (){
+        System.out.println("Guru Mapel : " + this.guruMapel);
+}
 }

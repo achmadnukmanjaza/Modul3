@@ -11,7 +11,7 @@ package modul3;
  */
 public class Gajah extends Hewan{
     public static void testClassmethod(){
-        System.out.println("The class method in Hewan ...");
+        System.out.println("The class method in hewan ...");
     } 
     public void testInstanceMethod(){
         System.out.println("the instance method in gajah ...");
@@ -19,7 +19,9 @@ public class Gajah extends Hewan{
     public static void main(String[]args){
         Gajah myGajah = new Gajah();
         Hewan myHewan = myGajah;
+        Gajah.testClassMethod();
         Hewan.testClassMethod();
         myHewan.testInstanceMethod();
+        myGajah.testInstanceMethod();
     }
 }
